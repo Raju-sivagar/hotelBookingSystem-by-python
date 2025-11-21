@@ -1,6 +1,5 @@
 # File Name: hotel.py
 # Description:  business logic (Hotel class)
-
 # Author: Raju Veeriah Sivagar
 # Date: 2025-11-21
 

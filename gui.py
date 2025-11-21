@@ -1,4 +1,8 @@
-# gui.py
+# File Name: enums.py
+# Description: enumeration classes for room types & reservation statuses used throughout the Hotel Booking System.
+# Author: Piyumi Ediriwera
+# Date: 2025-11-21
+
 """
 Tkinter Dashboard (Full) for Hotel Booking System - Option C
 Features:

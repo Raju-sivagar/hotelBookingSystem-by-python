@@ -3,7 +3,7 @@
 # Description: Handles all data persistence using SQLite. Responsible for
 #            storing, retrieving, updating, and deleting rooms and
 #           reservations in the Hotel Booking System database.
-# Author: Raju Veeriah Sivagar
+# Author: Piyumi Ediriwera
 # Date: 2025-11-21
 
 

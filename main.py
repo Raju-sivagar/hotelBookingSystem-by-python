@@ -1,6 +1,6 @@
 # # File Name: main.py
 # Description:  launcher (CLI or GUI)
-# Author: Raju Veeriah Sivagar
+# Author: Raju Veeriah Sivagar, Piyumi Ediriwera, and Dasuni senavirathna
 # Date: 2025-11-21
 
 # main.py
