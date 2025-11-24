@@ -131,7 +131,7 @@ class Storage:
             c.execute("""
                 INSERT INTO reservations
                 (room_number, guest_name, check_in, check_out, status)
-                VALUES (?, ?, ?, ?, ?, ?)
+                VALUES (?, ?, ?, ?, ?)
             """, (
                 res.room_number,
                 res.guest_name,
@@ -158,8 +158,7 @@ class Storage:
                     guest_name=row[2],
                     check_in=row[3],
                     check_out=row[4],
-                    status=ReservationStatus(row[5]),
-                    total_price=row[6]
+                    status=ReservationStatus(row[5])
                 )
             return None
     # update the reservation status after guest checked out 
@@ -183,8 +182,7 @@ class Storage:
                     guest_name=r[2],
                     check_in=r[3],
                     check_out=r[4],
-                    status=ReservationStatus(r[5]),
-                    total_price=r[6]
+                    status=ReservationStatus(r[5])
                 )
                 for r in rows
             ]
